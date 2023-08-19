@@ -1,0 +1,67 @@
+{
+  "id": "coc7-jmn",
+  "title": "CoC7 JM-N",
+  "description": "<p>Module de modification du System 'Cthulhu'</p>",
+  "version": "0.0.5",
+  "authors": [
+    {
+      "name": "MarKJan",
+      "url": "",
+      "discord": "",      
+      "flags": {}
+    },
+    {
+      "name": "Grimmbart de Ferdock",
+      "url": "",
+      "discord": "",
+      "flags": {}
+    }
+  ],
+  "relationships": {
+    "requires": [],
+    "systems": [
+      {
+        "id": "CoC7",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "compatibility": {
+    "minimum": "10",
+    "verified": "10.291"
+  },
+  "esmodules": [    
+    "coc7-jmn.js"
+  ],
+  "scripts": [  ],
+  "styles": [
+    "./styles/coc7-jmn.css"
+  ],
+    "packs": [        
+        {
+          "type": "Macro",
+          "label": "CoC7 - Macros",
+          "module": "coc7-macros-fr",
+          "path": "packs/coc7-macros.db",
+          "name": "coc7-macros",
+          "system": "CoC7"
+        }
+    ], 
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json",
+      "flags": {}
+    },
+    {
+      "lang": "fr",
+      "name": "Français",
+      "path": "lang/fr.json",
+      "flags": {}
+    }
+  ],
+  "url": "https://github.com/Nico151063/coc7-jmn",
+  "manifest": "https://github.com/Nico151063/coc7-jmn/module.json"  
+}

@@ -1,0 +1,25 @@
+
+
+
+
+/* Supression Image de fond "Points de Vie" sur feuille de personnage */
+.sheetV2.character form .container .sheet-body .hp-group {
+    background-image: none;    
+}
+
+/* Supression Image de fond "Santé mentale" sur feuille de personnage */
+.sheetV2.character form .container .sheet-body .san-group {
+    background-image: none;    
+}
+
+
+/* Supression Image de fond "Santé mentale" sur feuille de personnage */
+.sheetV2.character form .container .sheet-body .luck-group {
+    background-image: none;
+}
+
+
+/* Supression Image de fond "Santé mentale" sur feuille de personnage */
+.sheetV2.character form .container .sheet-body .magic-group{
+    background-image: none;
+}

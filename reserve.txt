@@ -1,0 +1,24 @@
+      /*
+      {
+        "type": "Macro",
+        "label": "CoC7 - Macros",
+        "module": "coc7-macros-fr",
+        "path": "packs/coc7-macros.db",
+        "name": "coc7-macros-1680441270810",
+        "system": "CoC7"
+      }
+      */
+
+
+
+
+      /* Supression Image de fond sur feuille de personnage (Tentacules !)*/
+.sheetV2.character {
+    background-image: none;
+}
+
+/* Supression Image de fond "Points de Vie" sur feuille de personnage */
+.sheetV2.character form .container {
+    background-image: none;
+    background-color: lightgray;
+}
