@@ -2,7 +2,7 @@
   "id": "coc7-jmn",
   "title": "CoC7 JM-N",
   "description": "<p>Module de modification du System 'Cthulhu'</p>",
-  "version": "0.0.5",
+  "version": "1.0.0",
   "authors": [
     {
       "name": "MarKJan",
@@ -63,7 +63,8 @@
     }
   ],
   "url": "https://github.com/Nico151063/coc7-jmn",
-  "manifest": "https://github.com/Nico151063/coc7-jmn/module.json"
+  "manifest": "https://github.com/Nico151063/coc7-jmn/releases/download/1.0.0/module.json",
+  "download" :"https://github.com/Nico151063/coc7-jmn/releases/download/1.0.0/coc7-jmn.zip"
   
 }
 
