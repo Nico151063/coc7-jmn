@@ -63,5 +63,8 @@
     }
   ],
   "url": "https://github.com/Nico151063/coc7-jmn",
-  "manifest": "https://github.com/Nico151063/coc7-jmn/module.json"  
+  "manifest": "https://github.com/Nico151063/coc7-jmn/releases/latest/download/module.json"
+  
 }
+
+
