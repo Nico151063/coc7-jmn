@@ -2,7 +2,7 @@
   "id": "coc7-jmn",
   "title": "CoC7 JM-N",
   "description": "<p>Module de modification du System 'Cthulhu'</p>",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "authors": [
     {
       "name": "MarKJan",
@@ -28,9 +28,11 @@
     ]
   },
   "compatibility": {
-    "minimum": "10",
-    "verified": "10.291"
+    "minimum": "10",    
+    "verified": "11.308"
   },
+  "minimumCoreVersion": "10",
+  "compatibleCoreVersion": "11",
   "esmodules": [    
     "coc7-jmn.js"
   ],
@@ -38,16 +40,32 @@
   "styles": [
     "./styles/coc7-jmn.css"
   ],
-    "packs": [        
+  "packs": [        
+      {
+        "type": "Macro",
+        "label": "CoC7 - Macros",
+        "module": "coc7-macros-fr",
+        "path": "packs/coc7-macros.db",
+        "name": "coc7-macros",
+        "system": "CoC7"
+      }
+  ], 
+  "packFolders": [
+    {
+      "name": "JMN",
+      "sorting": "m",
+      "folders": [
         {
-          "type": "Macro",
-          "label": "CoC7 - Macros",
-          "module": "coc7-macros-fr",
-          "path": "packs/coc7-macros.db",
-          "name": "coc7-macros",
-          "system": "CoC7"
-        }
-    ], 
+          "name": "Macros",
+          "sorting": "m",
+          "color": "#ff0000",
+          "packs": [
+            "coc7-macros-fr"
+          ]
+        }        
+      ]
+    }
+  ],
   "languages": [
     {
       "lang": "en",
@@ -64,7 +82,15 @@
   ],
   "url": "https://github.com/Nico151063/coc7-jmn",
   "manifest": "https://github.com/Nico151063/coc7-jmn/releases/download/1.0.0/module.json",
-  "download" :"https://github.com/Nico151063/coc7-jmn/releases/download/1.0.0/coc7-jmn.zip"
+  "download" :"https://github.com/Nico151063/coc7-jmn/releases/download/1.0.0/coc7-jmn.zip",
+
+  "media": [
+    {
+      "type": "setup",
+      "url": "modules/coc7-jmn/images/coc7-jmn.webp",
+      "thumbnail": "modules/coc7-jmn/images/thumbs/coc7-jmn.webp"
+    }
+  ]
   
 }
 
